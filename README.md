@@ -1,2 +1,17 @@
 # snowpack-react-app
-Basic react template based on Snowpack
+Basic React template based on Snowpack that can compile SASS.
+
+```bash
+yarn # Type to install dependencies
+```
+#### Start Dev Server
+
+```bash
+yarn start
+```
+
+#### Make Build
+
+```bash
+yarn build # output: ./dist
+```
