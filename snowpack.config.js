@@ -13,6 +13,10 @@ module.exports = {
   mount: {
     "src": "/"
   },
+  exclude: [
+    '**/node_modules/**/*',
+    '**/src/includes/**/*'
+  ],
   plugins: [
     [
       '@snowpack/plugin-sass',
@@ -21,6 +25,7 @@ module.exports = {
         sourceMap: false,
       },
     ],
+    ['@marlonmarcello/snowpack-plugin-pug'],
   ],
   packageOptions: {
     /* ... */
